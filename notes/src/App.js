@@ -19,7 +19,8 @@ function App() {
         <div className="">
              <div className="col-sm-2"><Create /></div>
         </div>
-        <div className="add">
+        <br/>
+        <div className="add col-sm-12">
           
         </div>
       </div>

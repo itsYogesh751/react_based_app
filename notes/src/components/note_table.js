@@ -1,5 +1,5 @@
-import Add from "./add_note";
-
+//import {add,fun} from "./add_note";
+import TR from "./table_rows";
 function note_table(){
     return(
         <table className="table">

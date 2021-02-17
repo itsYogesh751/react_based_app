@@ -1,7 +1,7 @@
-import Add from "./add_note";
+import {add, } from "./add_form";
 function Create(){
     return(
-        <button class="btn btn-danger" onClick={()=>Add()}>
+        <button className="btn btn-danger" onClick={add}>
              CREATE
         </button>
     )
