@@ -13,7 +13,8 @@ function add(){
     var but=document.createElement("button");
     but.innerText="Submit";
     but.setAttribute("type","submit");
-    but.setAttribute("class","btn btn-danger");
+    but.setAttribute("class","btn btn-success");
+    but.style.padding='1%';
     f1.appendChild(lab);
     f1.appendChild(input);
     f1.appendChild(but);

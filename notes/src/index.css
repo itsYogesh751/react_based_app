@@ -18,3 +18,7 @@ code {
 th{
   border:2px red solid;
 }
+.note{
+  margin-left: 10px;
+  margin-right: 10px;
+}

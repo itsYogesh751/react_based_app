@@ -17,10 +17,10 @@ function App() {
       </div>
       <div className="card-footer">
         <div className="">
-             <div className="col-sm-2"><Create /></div>
+             <div className="col-sm-1"><Create /></div>
         </div>
         <br/>
-        <div className="add col-sm-12">
+        <div className="add col-sm-10">
           
         </div>
       </div>
