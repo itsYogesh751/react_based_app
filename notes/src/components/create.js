@@ -1,4 +1,4 @@
-import {add, } from "./add_form";
+import {add,fun } from "./add_form";
 function Create(){
     return(
         <button className="btn btn-danger" onClick={add}>

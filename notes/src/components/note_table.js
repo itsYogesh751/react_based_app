@@ -10,10 +10,17 @@ function note_table(){
                 <th>time</th>
             </tr>
             </thead>
-            <tbody>
-                
+            <tbody className="tbody" onMouseOver={disappear}>
             </tbody>
         </table>
     )
+}
+function disappear(){
+    console.log("hej");
+
+    var form=document.querySelector(".form_del");
+    if(form!=null){
+    form.remove();
+    }
 }
 export default note_table;
